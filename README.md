@@ -20,3 +20,15 @@ apt-cache search awscli
 ls /etc/nginx/*
 ~~~
 
+### Extra software package
+
+This image contains `supervisor` and some python packages required by `supervisor`. Too lazy to find a better entry script, so for now, we are stuck to:
+
+~~~
+CMD ["/usr/bin/supervisord", "-n"]
+~~~
+
+### Contributing
+
+Pull requests are welcome!
+
