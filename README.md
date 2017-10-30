@@ -15,8 +15,8 @@ sudo docker run --name ubuntu-playground -d lysender/ubuntu-playground
 sudo docker exec -it ubuntu-playground bash
 # Do whatever you want
 # Looking for the right package name?
-apt-cache search aws
-# Not sure about the path?
+apt-cache search awscli
+# Not sure about the config path?
 ls /etc/nginx/*
 ~~~
 
